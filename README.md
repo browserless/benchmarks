@@ -11,8 +11,8 @@ This tool dynamically loads provider configurations and runs performance benchma
 
 ## Installation
 
-Use Node.js **26.x** for development. `.node-version` selects the floating major
-for compatible version managers; with nvm, run `nvm install 26 && nvm use 26`.
+Use Node.js **26.x** for development. `.nvmrc` selects the floating major;
+run `nvm install && nvm use` from the repository root.
 Node 22.x and 24.x remain compatibility targets for users running these benchmarks
 in their own environments; this does not impose a new minimum runtime. Official Linux Node 26
 binaries require `libatomic` (Debian/Ubuntu: `libatomic1`).
