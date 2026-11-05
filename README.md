@@ -11,6 +11,11 @@ This tool dynamically loads provider configurations and runs performance benchma
 
 ## Installation
 
+Use Node.js **26.13.0** for development (`nvm install && nvm use` from this
+repository). Node 22 and 24 remain compatibility targets; this development pin
+does not impose a new minimum runtime on consumers. Official Linux Node 26
+binaries require `libatomic` (Debian/Ubuntu: `libatomic1`).
+
 1. **Clone the repository** (if not already done):
    ```bash
    git clone <repository-url>
